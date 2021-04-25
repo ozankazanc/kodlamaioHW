@@ -6,10 +6,10 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		CampDay campDay1 = new CampDay(3, 3, LocalDate.of(2021, 04, 28));
+		CampDay campDay1 = new CampDay(1, 1, LocalDate.of(2021, 04, 28));
 		CampDay campDay3 = new CampDay();
-		campDay3.id = 1;
-		campDay3.day = 1;
+		campDay3.id = 3;
+		campDay3.day = 3;
 		campDay3.date = LocalDate.of(2021, 04, 21);
 		
 		//FOR CAMPDAY2---------------------------------------------------------------------------------------------------------------------------
